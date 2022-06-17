@@ -47,26 +47,21 @@
     color: white;
   }
   
-  /* .band-name {
-    text-align: center;
-    margin: 0;
-    font-size: 4em;
-    color: red;
-    font-family: cursive;
-    font-weight: normal;
-    color: white;
-  }
-
-  .band-name-large {
-    font-size: 6em;
-  } */
-
   .about-section {
     text-align: center;
     padding: 20px;
 
   }
   .cookie-images {
-    display: inline-block;
+    border-style: dashed;
+    border-color: red;
     padding: .2em;
   }
+
+.custom {
+    display: inline;
+    padding: .2em;
+    color: rgb(177, 21, 21);
+    text-decoration: none;
+  }
+  

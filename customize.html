@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Customize Goodies</title>
   <link rel="stylesheet" href="ccc.css"> 
+  <link rel="shortcut icon" href="#"> <!-- prevents runtime error 'favicon...'  -->
 </head>
 <body>
   <header class="main-header">
@@ -24,28 +25,68 @@
     <section class="image image-sugar"
       <h2><center>Sugar Cookies</center></h2>
       <div>
-        <svg>
+        <!-- <svg class="sugar-svg" width="500" height="300" viewbBox="0 0 500 300">
+          <circle cx="250" cy="150" r="75" fill="red"/>
+        </svg> -->
+        <svg width="200" height="200" viewBox="-100 -100 200 200">
+          <circle cx="0" cy="20" r="70" fill="#D1495B" />
+        
+          <circle
+            cx="0"
+            cy="-75"
+            r="12"
+            fill="none"
+            stroke="#F79257"
+            stroke-width="2"
+          />
+        
+          <rect x="-17.5" y="-65" width="35" height="20" fill="#F79257" />
         </svg>
       </div>
-      <p><center>Sugar page comming ...</center></p>
+      <p><center>Pick a shape</center></p>
+      <input type="radio" id="ornament" name="shape" value="Ornament">
+        <label for="html">Ornament</label><br>
+      <input type="radio" id="candy-cane" name="shape" value="candy-cane">
+        <label for="html">Candy Cane</label><br>
+      <input type="radio" id="tree" name="shape" value="tree">
+        <label for="html">Tree</label><br><br>
+
+      <p><center>Add toppings</center></p>
+      <input type="checkbox" id="sprinkles" name="topping" value="Sprinkles">
+        <label for="html">Sprinkles</label><br>
+      <input type="checkbox" id="frosting" name="topping" value="Frosting">
+        <label for="html">Frosting</label><br>
     </section>
 
   <section class="image image-ginger"
     <h2><center>Ginger Bread Cookies</center></h2>
     <div>
-      <svg>
+      <svg class=“gingerbread" width="200" height="200" viewBox="-100 -100 200 200">
+        <circle class="body" cx="0" cy="-50" r="30" fill="#CD803D" />
+      
+        <circle class="eye" cx="-12" cy="-55" r="3" fill="#FFFFFF" />
+        <circle class="eye" cx="12" cy="-55" r="3" fill="#FFFFFF" />
+        <rect class="mouth" x="-10" y="-40" width="20" height="5" rx="2" fill="none" stroke="#FFFFFF" stroke-width="2px" />
+      
+        <line class="limb" x1="-40" y1="-10" x2="40" y2="-10" stroke="#CD803D" stroke-width="25px" stroke-linecap="round" />
+        <line class="limb" x1="-25" y1="50" x2="0" y2="-15" stroke="#CD803D" stroke-width="25px" stroke-linecap="round" />
+        <line class=“limb" x1="25" y1="50" x2="0" y2="-15" stroke="#CD803D" stroke-width="25px" stroke-linecap="round" />
+      
+        <circle class="button" cx="0" cy="-10" r="5" />
+        <circle class="button" cx="0" cy="10" r="5" />
       </svg>
     </div>
-    <p><center>Ginger page comming ...</center></p>
+    <p><center>Ginger page coming ...</center></p>
   </section>
 
   <section class="image image-potato"
     <h2><center>Potato Knishes</center></h2>
     <div>
-      <svg>
+      <svg class="potato-svg" width="200" height="200" viewbBox="-100 -100 200 200">
+        <circle cx="100" cy="100" r="75" fill="tan"/>
       </svg>
     </div>
-    <p><center>Potato page comming ...</center></p>
+    <p><center>Potato page coming ...</center></p>
   </section>
   
 </div>

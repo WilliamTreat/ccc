@@ -52,16 +52,20 @@
     padding: 20px;
 
   }
-  .cookie-images {
-    border-style: dashed;
-    border-color: red;
+  .custom {
+    /* border-style: dashed;
+    border-color: red; */
     padding: .2em;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
 
-.custom {
-    display: inline;
+ .custom section {
+    display: inline-block;
     padding: .2em;
-    color: rgb(177, 21, 21);
-    text-decoration: none;
-  }
+    color: rgb(177, 21, 21); 
+}
+
   
